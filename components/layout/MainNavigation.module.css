@@ -1,0 +1,34 @@
+.header {
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-image: linear-gradient(to right, rgb(152, 60, 112), rgb(218, 218, 218));
+    padding: 0 7%;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+}
+
+.logo {
+    font-size: 2rem;
+    color: white;
+    text-shadow: 1px 1px 2px #000;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.btn {
+    font-size: 1rem;
+    color: #000;
+    text-decoration: none;
+    padding: 0.5rem 1.5rem;
+    border: 1px solid rgb(89, 101, 86);
+    border-radius: 30px;
+    background-color: #eee;
+    margin: 0 0.5rem
+}
+
+.btn:hover {
+    color: #fff;
+    background-color: rgb(89, 101, 86);
+}
